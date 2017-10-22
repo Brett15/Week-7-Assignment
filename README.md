@@ -11,7 +11,7 @@ Time spent: 2.5 hours spent in total
     - Vulnerability types: XSS
     - Tested in version: 4.2
     - Fixed in version:  4.2.3
-  - [ ] GIF Walkthrough: <img src='https://i.imgur.com/a/Ut3Zv' title='GIF Walkthrough' width='' alt='GIF Walkthrough' /> 
+  - [ ] GIF Walkthrough: <img src='http://i.imgur.com/a/Ut3Zv' title='GIF Walkthrough' width='' alt='GIF Walkthrough' /> 
   - [ ] Steps to recreate: Click Edit to change the page's HTML. Add the following code <a href="[caption code=">]</a><a title=" onmouseover=alert('test')  ">link</a> . Save the chagnes and then view the page, there will be text "link" which will have the stored xss.
   - [ ] Affected source code:
     - [Link 1](https://wordpress.org/news/2015/07/wordpress-4-2-3/)
@@ -20,7 +20,7 @@ Time spent: 2.5 hours spent in total
     - Vulnerability types: XSS
     - Tested in version: 4.2
     - Fixed in version: 4.2.13
-  - [ ] GIF Walkthrough: <img src='https://imgur.com/a/P9RIB' title='GIF Walkthrough' width='' alt='GIF Walkthrough' /> 
+  - [ ] GIF Walkthrough: <img src='http://imgur.com/a/P9RIB' title='GIF Walkthrough' width='' alt='GIF Walkthrough' /> 
   - [ ] Steps to recreate: Upload an MP3 file. Edit the description of the file to include the code <script>prompt(1)</script> . Then view the attachment page
   - [ ] Affected source code:
     - [Link 1](https://github.com/WordPress/WordPress/commit/28f838ca3ee205b6f39cd2bf23eb4e5f52796bd7)
@@ -29,7 +29,7 @@ Time spent: 2.5 hours spent in total
     - Vulnerability types: xss
     - Tested in version:4.2
     - Fixed in version: 4.2.1
-  - [ ] GIF Walkthrough: <img src='https://imgur.com/a/qbPwO' title='GIF Walkthrough' width='' alt='GIF Walkthrough' />
+  - [ ] GIF Walkthrough: <img src='http://imgur.com/a/qbPwO' title='GIF Walkthrough' width='' alt='GIF Walkthrough' />
   - [ ] Steps to recreate: Log out to be a regular user, post a comment with xss in the attributes of the <a> tags the message must be more than 64kB of data. <a title='x onmouseover=alert(unescape(/hello%20world/.source)) style=position:absolute;left:0;top:0;width:5000px;height:5000px  AAAAAAAAAAAA...[64 kb]..AAA'></a>
   - [ ] Affected source code:
     - [Link 1](https://wpvulndb.com/vulnerabilities/7945)
