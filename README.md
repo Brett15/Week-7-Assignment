@@ -11,7 +11,7 @@ Time spent: 2.5 hours spent in total
     - Vulnerability types: XSS
     - Tested in version: 4.2
     - Fixed in version:  4.2.3
-  - [ ] GIF Walkthrough: <img src='http://i.imgur.com/a/Ut3Zv' title='GIF Walkthrough' width='' alt='GIF Walkthrough' /> 
+  - [ ] GIF Walkthrough: <img src='http://i.imgur.com/Ut3Zv.gif' title='GIF Walkthrough' width='' alt='GIF Walkthrough' /> 
   - [ ] Steps to recreate: Click Edit to change the page's HTML. Add the following code <a href="[caption code=">]</a><a title=" onmouseover=alert('test')  ">link</a> . Save the chagnes and then view the page, there will be text "link" which will have the stored xss.
   - [ ] Affected source code:
     - [Link 1](https://wordpress.org/news/2015/07/wordpress-4-2-3/)
